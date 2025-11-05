@@ -173,6 +173,148 @@ export default function Index() {
       </section>
 
       <section className="relative z-10 container mx-auto px-4 py-20">
+        <h2 className="text-4xl font-bold text-center mb-12 glow-text">
+          Довольные клиенты
+        </h2>
+        
+        <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6 max-w-6xl mx-auto mb-12">
+          <Card className="p-6 bg-card/80 backdrop-blur-sm border-primary/20 hover-glow">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0">
+                <Icon name="User" size={24} className="text-primary" />
+              </div>
+              <div>
+                <p className="font-bold text-lg">Алексей</p>
+                <div className="flex text-yellow-500">
+                  {'★'.repeat(5)}
+                </div>
+              </div>
+            </div>
+            <p className="text-muted-foreground">
+              "Сделали сайт за 3 часа! Не ожидал такой скорости. Всё как я хотел, даже лучше."
+            </p>
+          </Card>
+
+          <Card className="p-6 bg-card/80 backdrop-blur-sm border-secondary/20 hover-glow">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="w-12 h-12 rounded-full bg-secondary/20 flex items-center justify-center flex-shrink-0">
+                <Icon name="User" size={24} className="text-secondary" />
+              </div>
+              <div>
+                <p className="font-bold text-lg">Мария</p>
+                <div className="flex text-yellow-500">
+                  {'★'.repeat(5)}
+                </div>
+              </div>
+            </div>
+            <p className="text-muted-foreground">
+              "Отличная работа! Современный дизайн и всё работает идеально. Рекомендую!"
+            </p>
+          </Card>
+
+          <Card className="p-6 bg-card/80 backdrop-blur-sm border-primary/20 hover-glow">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0">
+                <Icon name="User" size={24} className="text-primary" />
+              </div>
+              <div>
+                <p className="font-bold text-lg">Дмитрий</p>
+                <div className="flex text-yellow-500">
+                  {'★'.repeat(5)}
+                </div>
+              </div>
+            </div>
+            <p className="text-muted-foreground">
+              "За такую цену — просто огонь! Быстро, качественно, без лишних вопросов."
+            </p>
+          </Card>
+
+          <Card className="p-6 bg-card/80 backdrop-blur-sm border-secondary/20 hover-glow">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="w-12 h-12 rounded-full bg-secondary/20 flex items-center justify-center flex-shrink-0">
+                <Icon name="User" size={24} className="text-secondary" />
+              </div>
+              <div>
+                <p className="font-bold text-lg">Анна</p>
+                <div className="flex text-yellow-500">
+                  {'★'.repeat(5)}
+                </div>
+              </div>
+            </div>
+            <p className="text-muted-foreground">
+              "Ребята профи своего дела. Сделали сайт для моего бизнеса — всё круто!"
+            </p>
+          </Card>
+
+          <Card className="p-6 bg-card/80 backdrop-blur-sm border-primary/20 hover-glow">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0">
+                <Icon name="User" size={24} className="text-primary" />
+              </div>
+              <div>
+                <p className="font-bold text-lg">Игорь</p>
+                <div className="flex text-yellow-500">
+                  {'★'.repeat(5)}
+                </div>
+              </div>
+            </div>
+            <p className="text-muted-foreground">
+              "Просто написал что хочу, и через пару часов уже был готовый сайт. Магия!"
+            </p>
+          </Card>
+
+          <Card className="p-6 bg-card/80 backdrop-blur-sm border-secondary/20 hover-glow">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="w-12 h-12 rounded-full bg-secondary/20 flex items-center justify-center flex-shrink-0">
+                <Icon name="User" size={24} className="text-secondary" />
+              </div>
+              <div>
+                <p className="font-bold text-lg">Елена</p>
+                <div className="flex text-yellow-500">
+                  {'★'.repeat(5)}
+                </div>
+              </div>
+            </div>
+            <p className="text-muted-foreground">
+              "Качество на высоте! Адаптив, скорость загрузки — всё супер. Спасибо!"
+            </p>
+          </Card>
+
+          <Card className="p-6 bg-card/80 backdrop-blur-sm border-primary/20 hover-glow">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="w-12 h-12 rounded-full bg-primary/20 flex items-center justify-center flex-shrink-0">
+                <Icon name="User" size={24} className="text-primary" />
+              </div>
+              <div>
+                <p className="font-bold text-lg">Сергей</p>
+                <div className="flex text-yellow-500">
+                  {'★'.repeat(5)}
+                </div>
+              </div>
+            </div>
+            <p className="text-muted-foreground">
+              "Цена вообще смешная за такое качество. Буду заказывать ещё!"
+            </p>
+          </Card>
+
+          <Card className="p-6 bg-card/80 backdrop-blur-sm border-secondary/20 hover-glow">
+            <div className="flex items-start gap-4 mb-4">
+              <div className="w-12 h-12 rounded-full bg-secondary/20 flex items-center justify-center flex-shrink-0">
+                <Icon name="User" size={24} className="text-secondary" />
+              </div>
+              <div>
+                <p className="font-bold text-lg">Ольга</p>
+                <div className="flex text-yellow-500">
+                  {'★'.repeat(5)}
+                </div>
+              </div>
+            </div>
+            <p className="text-muted-foreground">
+              "Сайт получился стильный и красивый. Друзьям уже посоветовала!"
+            </p>
+          </Card>
+        </div>
+
         <Card className="p-12 bg-gradient-to-br from-primary/20 to-secondary/20 backdrop-blur-sm border-primary/30 text-center">
           <h2 className="text-4xl font-bold mb-6 glow-text">
             Готовы создать свой сайт?
