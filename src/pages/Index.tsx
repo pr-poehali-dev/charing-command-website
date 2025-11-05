@@ -139,7 +139,7 @@ export default function Index() {
                 </div>
                 <div>
                   <p className="text-xl font-semibold mb-2">Вы переводите:</p>
-                  <p className="text-2xl text-primary">90₽</p>
+                  <p className="text-2xl text-primary">Сумму в зависимости от заказа</p>
                 </div>
               </div>
             </Card>
