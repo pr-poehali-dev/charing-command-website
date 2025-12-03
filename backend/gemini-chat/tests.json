@@ -1,0 +1,17 @@
+{
+  "tests": [
+    {
+      "name": "Test chat endpoint",
+      "method": "POST",
+      "path": "/",
+      "body": {
+        "message": "Привет! Как дела?"
+      },
+      "expectedStatus": 200,
+      "expectedBody": {
+        "response": "string"
+      },
+      "bodyMatcher": "partial"
+    }
+  ]
+}
